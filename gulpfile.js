@@ -18,8 +18,8 @@ import sourcemaps from "gulp-sourcemaps";
 import autoprefixer from "gulp-autoprefixer";
 import cleanCSS from "gulp-clean-css";
 import gcmq from "gulp-group-css-media-queries";
-import { 
-	stream as critical 
+import {
+	stream as critical
 } from "critical";
 
 // js
@@ -208,7 +208,7 @@ export const avif = () =>
 export const copy = () =>
   gulp
     .src(path.src.assets, {
-      base: path.dist.base,
+      base: path.src.base,
     })
     .pipe(gulp.dest(path.dist.base))
     .pipe(
