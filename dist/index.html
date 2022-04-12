@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Big Brother - Моя библиотека</title>
   <link rel="stylesheet" href="css/index.min.css">
-  <script src="js/index.min.js" defer></script>
+  <script src="js/index.min.js" defer="defer"></script>
 </head>
 
 <body>
@@ -29,7 +29,7 @@
         <div class="fields__block">
           <button class="fields__btn fields__btn-sort" aria-label="по рейтингу">
             <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M3 18H9V16H3V18ZM3 6V8H21V6H3ZM3 13H15V11H3V13Z" fill="white" />
+              <path d="M3 18H9V16H3V18ZM3 6V8H21V6H3ZM3 13H15V11H3V13Z" fill="white"/>
             </svg>
             <span class="fields__text">По рейтингу</span>
           </button>
@@ -48,9 +48,7 @@
         <div class="fields__block">
           <button class="fields__btn fields__btn-filter" aria-label="фильтр">
             <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M4.24999 5.61C6.26999 8.2 9.99999 13 9.99999 13V19C9.99999 19.55 10.45 20 11 20H13C13.55 20 14 19.55 14 19V13C14 13 17.72 8.2 19.74 5.61C20.25 4.95 19.78 4 18.95 4H5.03999C4.20999 4 3.73999 4.95 4.24999 5.61Z"
-                fill="white" />
+              <path d="M4.24999 5.61C6.26999 8.2 9.99999 13 9.99999 13V19C9.99999 19.55 10.45 20 11 20H13C13.55 20 14 19.55 14 19V13C14 13 17.72 8.2 19.74 5.61C20.25 4.95 19.78 4 18.95 4H5.03999C4.20999 4 3.73999 4.95 4.24999 5.61Z" fill="white"/>
             </svg>
             <span class="fields__text">Фильтр</span>
           </button>
@@ -231,7 +229,7 @@
               </li>
               <li class="status__item">
                 <input class="status__radio" type="radio" name="label" id="read" value="read">
-                <label class="status__label"  for="read">читаю</label>
+                <label class="status__label" for="read">читаю</label>
               </li>
               <li class="status__item">
                 <input class="status__radio" type="radio" name="label" id="not_finish" value="notfinish">
@@ -243,9 +241,9 @@
           <fieldset class="star">
             <legend>Поставьте оценку</legend>
             <div class="star__list">
-              <input class="star__radio" type="radio"  id="star-rating-5" name="rating" value="5">
+              <input class="star__radio" type="radio" id="star-rating-5" name="rating" value="5">
               <label class="star__icon" for="star-rating-5"></label>
-              <input class="star__radio" type="radio"  id="star-rating-4" name="rating" value="4">
+              <input class="star__radio" type="radio" id="star-rating-4" name="rating" value="4">
               <label class="star__icon" for="star-rating-4"></label>
               <input class="star__radio" type="radio" id="star-rating-3" name="rating" value="3">
               <label class="star__icon" for="star-rating-3"></label>

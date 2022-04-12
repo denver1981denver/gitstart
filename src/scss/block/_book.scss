@@ -1,0 +1,64 @@
+.book {
+  &__header {
+    margin-bottom: 32px;
+  }
+
+  &__wrapper {
+    margin-bottom: 20px;
+    padding: 0 76px;
+  }
+
+  &__label {
+    position: fixed;
+    bottom: 0;
+    margin: 12px 0;
+    min-width: 360px;
+    min-width: 74px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
+    padding: 18px 103px;
+    border-radius: 30px;
+
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    color: $light;
+    margin-bottom: 4px;
+  }
+
+  &__author {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: $secondary;
+    margin-bottom: 15px;
+  }
+
+  &__rating {
+    margin-bottom: 15px;
+  }
+
+  &__rating-star {
+    width: 36px;
+    height: 36px;
+  }
+
+  &__subtitle {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 130%;
+    margin-bottom: 4px;
+  }
+
+  &__description {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: $light;
+  }
+}
