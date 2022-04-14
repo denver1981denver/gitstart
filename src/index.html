@@ -14,8 +14,8 @@
   <section class="library">
 
     <header class="header library__header">
-      <div class="container">
-        <img class="header__logo" src="img/logo.svg" alt="Логотип big brother" width="61" height="41">
+      <div class="container header__container">
+        <img class="header__logo" src="img/logo.svg" alt="Логотип big brother">
         <button class="header__btn-add">Добавить книгу</button>
         <button class="header__btn header__btn-search" aria-label="Найти книгу"></button>
       </div>
@@ -29,17 +29,17 @@
         <div class="fields__block">
           <button class="fields__btn fields__btn-sort" aria-label="по рейтингу">
             <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M3 18H9V16H3V18ZM3 6V8H21V6H3ZM3 13H15V11H3V13Z" fill="white" />
+              <path d="M3 18H9V16H3V18ZM3 6V8H21V6H3ZM3 13H15V11H3V13Z" fill="currentColor" />
             </svg>
             <span class="fields__text">По рейтингу</span>
           </button>
 
           <ul class="fields__list fields__list-sort">
             <li class="fields__item">
-              <button class="fields__button">от большего</button>
+              <button class="fields__button"></button>
             </li>
             <li class="fields__item">
-              <button class="fields__button">к меньшему</button>
+              <button class="fields__button"></button>
             </li>
           </ul>
 
@@ -50,23 +50,23 @@
             <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M4.24999 5.61C6.26999 8.2 9.99999 13 9.99999 13V19C9.99999 19.55 10.45 20 11 20H13C13.55 20 14 19.55 14 19V13C14 13 17.72 8.2 19.74 5.61C20.25 4.95 19.78 4 18.95 4H5.03999C4.20999 4 3.73999 4.95 4.24999 5.61Z"
-                fill="white" />
+                fill="currentColor" />
             </svg>
             <span class="fields__text">Фильтр</span>
           </button>
 
           <ul class="fields__list fields__list-filter">
-            <li class="fields__item">
-              <button class="fields__item">хочу прочитать</button>
+            <li class="fields__item ">
+              <button class="fields__button">хочу прочитать</button>
             </li>
             <li class="fields__item">
-              <button class="fields__item">прочитал</button>
+              <button class="fields__button">прочитал</button>
             </li>
             <li class="fields__item">
-              <button class="fields__item">читаю</button>
+              <button class="fields__button">читаю</button>
             </li>
             <li class="fields__item">
-              <button class="fields__item">не дочитал</button>
+              <button class="fields__button">не дочитал</button>
             </li>
           </ul>
 
@@ -141,9 +141,9 @@
 
   <section class="book hidden">
     <header class="header book__header">
-      <div class="container">
-        <button class="header__btn header__btn-back">назад</button>
-        <button class="header__btn header__btn-delete">удалить</button>
+      <div class="container header__container">
+        <button class="header__btn header__btn-back"></button>
+        <button class="header__btn header__btn-delete"></button>
       </div>
     </header>
 
@@ -185,9 +185,9 @@
   <section class="add hidden">
     <h2 class="visually-hidden">Добавить книгу</h2>
     <header class="header add__header">
-      <div class="container">
-        <button class="header__btn header__btn-back">назад</button>
-        <button class="header__btn header__btn-search">Поиск </button>
+      <div class="container header__container">
+        <button class="header__btn header__btn-back"></button>
+        <button class="header__btn header__btn-search"> </button>
       </div>
     </header>
 

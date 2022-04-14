@@ -4,7 +4,7 @@ const library = document.querySelector('.library'),
   book = document.querySelector('.book'),
   add = document.querySelector('.add'),
   addBtns = document.querySelectorAll('.header__btn-add, .library__add-btn'),
-  backBtns = document.querySelectorAll('.header__btn-back, .header__btn-back');
+  backBtn = document.querySelectorAll('.header__btn-back');
 
 const router = new Navigo('/', {
   hash: true,
@@ -18,10 +18,6 @@ const  closeAllPage = () => {
 
 router.on( {
   '/': () => {
-    closeAllPage();
-    library.classList.remove('hidden');
-  },
-  'library': () => {
     closeAllPage();
     library.classList.remove('hidden');
   },
@@ -41,9 +37,9 @@ addBtns.forEach(btn => {
   })
 })
 
-backBtns.forEach(btn => {
+backBtn.forEach(btn => {
   btn.addEventListener('click', () => {
-    router.navigate('library');
+    router.navigate('/');
   })
 })
 
